@@ -29,6 +29,15 @@ Using the formula: =(((J2/60)/60)/24)+DATE(1970,1,1) - Where J2 was the Unix dat
 
 ![m1-challenge-bullet-3](https://user-images.githubusercontent.com/111530580/186711495-87f8d6c3-d70b-4e2e-8c7b-abece3489c7b.png)
 
+- The data needed to be further broken down into more relevant data pieces.  Columns were created as such:
+						
+![image](https://user-images.githubusercontent.com/111530580/186713581-5eb98f6f-358f-47a8-8dc4-ea463659c0e8.png)
+
+- Then a "COUNTIFS" function was added to the empty sells in order to display the data we were looking for.  The relevancy was increased by including only plays in our data.  For example, the formula in the cell intersecting "1000 to 4999" and "Number Successful" was: =COUNTIFS(Kickstarter!$D:$D,">=1000",Kickstarter!$R:$R,"plays",Kickstarter!$D:$D,"<5000",Kickstarter!$F:$F,"successful")
+
+- The totals and percentages were inputted using mathematical formulas for "SUM" and dividing and multiplying as necessary.
+
+
 ### Challenges and Difficulties Encountered
 
 ## Results
