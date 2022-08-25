@@ -57,13 +57,13 @@ Using the formula: =(((J2/60)/60)/24)+DATE(1970,1,1) - Where J2 was the Unix dat
 	- The outcomes based on goal chart has data that varies widely, from aa 100% failure rate in the "$45,000 to $49,999" category to only a 30% failure rate in the "less than $1000" category.  
 	- This data requires some closer examination.  If one takes tha mean and average of the success rate, the result is 56.5.  The mean however for the same data is only 6.5.  This indicated that the data is skewed left. 
 	- Closer inspection reveals that only one campaign was attempted in the "$45,000 to $49,999" range.  Not enough to include it in a meaningful analysis.  The data breaks down as follows:
-![image](https://user-images.githubusercontent.com/111530580/186739944-d7f5a394-208c-4a3f-8481-691d37ec7c61.png)
+	![image](https://user-images.githubusercontent.com/111530580/186739944-d7f5a394-208c-4a3f-8481-691d37ec7c61.png)
 
 	-If one uses the IQR method to determine the outliers in the "successful campaigns" categry, then more than half of the data is considered an outlier.
 	
 	-Since our fictional playwrite was going to budget for $10,000 I created another chart with a dollar range closer to hher stated amount:
 	
-![image](https://user-images.githubusercontent.com/111530580/186747608-ed756436-65d3-451f-8c1e-869acd283047.png)
+	![image](https://user-images.githubusercontent.com/111530580/186747608-ed756436-65d3-451f-8c1e-869acd283047.png)
 
 	-The same limitations occured here, however as the more limited data caused a similar amount of outliers.
 	
